@@ -1,3 +1,5 @@
+import {sortByDistance} from "./distance";
+
 let stores = [
   {name: "Cambridge Naturals", x: -71.1189, y: 42.3895},
   {name: "Sarah's Market", x: -71.1311, y: 42.3823},

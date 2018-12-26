@@ -14,3 +14,5 @@ function distance(p2, p1) {
 function sortByDistance(myPt, points) {
   return points.sort((pt1, pt2) => distance(pt1, myPt) - distance(pt2, myPt));
 }
+
+module.exports = {distance, sortByDistance};
