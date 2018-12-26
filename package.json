@@ -4,13 +4,16 @@
   "author": "&y Haskell",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "test": "TESTBUILD=true webpack && mocha test-dist/main.js && rm -rf test-dist"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "7.1.5",
     "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
     "jquery": "^3.3.1",
+    "mocha": "^5.2.0",
     "webpack": "^4.28.2",
     "webpack-cli": "^3.1.2"
   }
