@@ -1,4 +1,5 @@
 import {sortByDistance} from "./distance";
+import $ from "jQuery";
 
 let stores = [
   {name: "Cambridge Naturals", x: -71.1189, y: 42.3895},
@@ -8,4 +9,4 @@ let stores = [
 
 let here = {name: "You are here", x: -71.147, y: 42.3834};
 let nearest = sortByDistance(here, stores)[0];
-document.getElementById("nearest-store").innerHTML = nearest.name;
+$("#nearest-store").html(nearest.name);

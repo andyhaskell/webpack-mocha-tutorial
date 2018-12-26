@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "author": "&y Haskell",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack app/src/page.js"
+  },
   "devDependencies": {
+    "jquery": "^3.3.1",
     "webpack": "^4.28.2",
     "webpack-cli": "^3.1.2"
   }
