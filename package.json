@@ -4,7 +4,7 @@
   "author": "&y Haskell",
   "license": "MIT",
   "scripts": {
-    "build": "webpack app/src/page.js"
+    "build": "webpack"
   },
   "devDependencies": {
     "jquery": "^3.3.1",
